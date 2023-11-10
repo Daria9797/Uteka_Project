@@ -17,7 +17,7 @@ public class TestBase {
         Configuration.baseUrl="https://uteka.ru/";
         Configuration.pageLoadStrategy="eager";
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("version", "119");
+        Configuration.browserVersion = System.getProperty("version", "100");
         Configuration.browserSize = System.getProperty("size", "1920x1080");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options",
